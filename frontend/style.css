@@ -1,0 +1,116 @@
+/* General page styling */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center everything nicely */
+.main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* File uploader */
+.stFileUploader {
+    border: 2px dashed #3498db !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+    background-color: #455158 !important;
+}
+.stFileUploader:hover {
+    border-color: #2980b9 !important;
+    background-color: #69757b !important;
+}
+
+/* Uploaded image */
+.stImage {
+    border-radius: 12px !important;
+    margin-top: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Prediction button */
+button[kind="primary"] {
+    background-color: #3498db !important;
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    padding: 12px 24px !important;
+    border-radius: 8px !important;
+    border: none !important;
+    transition: all 0.3s ease-in-out;
+}
+button[kind="primary"]:hover {
+    background-color: #2980b9 !important;
+    transform: scale(1.03);
+}
+
+/* Success (Normal) message */
+.stSuccess {
+    background-color: #2d332f !important;
+    border-left: 5px solid #27ae60 !important;
+    color: #2c662d !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Error (Pneumonia detected) message */
+.stError {
+    background-color: #ffecec !important;
+    border-left: 5px solid #e74c3c !important;
+    color: #a94442 !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+/* Top navigation bar */
+.top-nav {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+.top-nav .nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-nav .nav-left h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.top-nav .nav-right a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.top-nav .nav-right a:hover {
+    color: #dfe6e9;
+}
